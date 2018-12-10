@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_181" class="java.beans.XMLDecoder">
+ <object class="ba.unsa.etf.rpr.tutorijal7.UN" id="UN0">
+  <void property="drzave">
+   <void method="add">
+    <object class="ba.unsa.etf.rpr.tutorijal7.Drzava">
+     <void property="brojStanovnika">
+      <int>3500000</int>
+     </void>
+     <void property="glavniGrad">
+      <object class="ba.unsa.etf.rpr.tutorijal7.Grad">
+       <void property="brojStanovnika">
+        <int>400000</int>
+       </void>
+       <void property="naziv">
+        <string>Sarajevo</string>
+       </void>
+       <void property="temperature">
+        <array class="double" length="1000">
+         <void index="0">
+          <double>5.4</double>
+         </void>
+         <void index="1">
+          <double>15.8</double>
+         </void>
+         <void index="2">
+          <double>3.2</double>
+         </void>
+         <void index="3">
+          <double>16.8</double>
+         </void>
+        </array>
+       </void>
+      </object>
+     </void>
+     <void property="jedinicaPovrsine">
+      <string>km2</string>
+     </void>
+     <void property="naziv">
+      <string>Bosna i Hercegovina</string>
+     </void>
+     <void property="povrsina">
+      <double>51129.0</double>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ba.unsa.etf.rpr.tutorijal7.Drzava">
+     <void property="brojStanovnika">
+      <int>7600000</int>
+     </void>
+     <void property="glavniGrad">
+      <object class="ba.unsa.etf.rpr.tutorijal7.Grad">
+       <void property="brojStanovnika">
+        <int>900000</int>
+       </void>
+       <void property="naziv">
+        <string>Zagreb</string>
+       </void>
+      </object>
+     </void>
+     <void property="jedinicaPovrsine">
+      <string>km2</string>
+     </void>
+     <void property="naziv">
+      <string>Hrvatska</string>
+     </void>
+     <void property="povrsina">
+      <double>51129.0</double>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ba.unsa.etf.rpr.tutorijal7.Drzava">
+     <void property="brojStanovnika">
+      <int>740000</int>
+     </void>
+     <void property="glavniGrad">
+      <object class="ba.unsa.etf.rpr.tutorijal7.Grad">
+       <void property="brojStanovnika">
+        <int>90000</int>
+       </void>
+       <void property="naziv">
+        <string>Podgorica</string>
+       </void>
+      </object>
+     </void>
+     <void property="jedinicaPovrsine">
+      <string>km2</string>
+     </void>
+     <void property="naziv">
+      <string>Crna Gora</string>
+     </void>
+     <void property="povrsina">
+      <double>51128.0</double>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
